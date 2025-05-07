@@ -1,6 +1,6 @@
 if not LPH_OBFUSCATED then
     local f=function(...)return...;end;
-    local g=_G;
+    local g= _G or getgenv;
     local t=type;
     g = tick();
     t = tick();
