@@ -18,4 +18,6 @@ Check_Monster = LPH_JIT_MAX(function(Monster)
 				shortestDistance = distance;
 			end;
 		end;
-	end;
+	end;		
+Check_Monster("Bandit")
+				
